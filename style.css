@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	text-align: center;
+	font-size: 25px;
+}
+
+h1{
+	font-size: 40px;
+	padding: 10px;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+	overflow: hidden;
+	position: top;
+	top: 0;
+	width: 100%;
+}
+
+li{
+	float: left;
+}
+
+li a{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	padding: 15px;
+	border-right: 1px solid #fff;
+}
+
+li a:hover{
+	background-color: red;
+}
+
+pre{
+	text-align: center;
+}
+
+table{
+	width: 100%;
+}
+
+.blog{
+	border: 1px solid black;
+}
